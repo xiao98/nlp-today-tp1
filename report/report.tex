@@ -1,271 +1,149 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[11pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern,microtype}
-\usepackage[margin=2cm]{geometry}
-\usepackage{booktabs,multirow,array,tabularx}
-\usepackage[table]{xcolor}
-\usepackage{amssymb}
-\usepackage{enumitem}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{booktabs,tabularx,array}
+\usepackage{xcolor,amssymb,enumitem}
 \usepackage{forest,adjustbox}
 \usepackage{caption}
 \usepackage[hidelinks]{hyperref}
 \setlist{itemsep=1pt,topsep=3pt}
-\captionsetup{font=small,labelfont=bf}
-\setlength{\parskip}{3pt}
+\captionsetup{font=small}
 
 \newcommand{\tg}[1]{\textsubscript{\sffamily #1}}
-\newcommand{\ok}{\checkmark}
-\newcommand{\zero}{\textcolor{gray}{0}}
-\newcommand{\notenum}{$^\ast$}
-\newcommand{\rl}[1]{\textsf{#1}}
 \makeatletter\newcommand{\tinput}[1]{\@@input #1 }\makeatother % \input usable inside tables
-
-% ======================= EDIT HERE: group members =======================
-\newcommand{\groupmembers}{%
-  \textcolor{red}{[First name LAST NAME] -- [e-mail]}\\
-  \textcolor{red}{[First name LAST NAME] -- [e-mail]}\\
-  \textcolor{red}{[First name LAST NAME] -- [e-mail]}}
-% =========================================================================
 
 \begin{document}
 
 \begin{center}
-  {\LARGE\bfseries NLP Today -- Session 1 Report}\\[3pt]
-  {\large Part-of-Speech Tagging and Constituency Parsing}\\[6pt]
-  \groupmembers\\[4pt]
-  {\small Université Paris-Saclay -- NLP Today (T. Gerald)}
+  {\Large\bfseries NLP Today -- Session 1: PoS Tagging and Constituency Parsing}\\[8pt]
+  % ======================= EDIT HERE: group members =======================
+  \textcolor{red}{[First name LAST NAME] -- [e-mail]}\\
+  \textcolor{red}{[First name LAST NAME] -- [e-mail]}\\
+  \textcolor{red}{[First name LAST NAME] -- [e-mail]}
+  % =========================================================================
 \end{center}
 
-\noindent The dataset has four general-domain sentences built around classic ambiguities and two specialty-domain sentences (biology, astronomy).
-Section~\ref{sec:manual} annotates them by hand (PoS tags and the constituency trees we want).
-Section~\ref{sec:auto} compares two automatic PoS taggers, parses the sentences with the provided CYK implementation under several context-free grammars and PoS inputs, and compares the result with a neural constituency parser.
-Section~\ref{sec:obs} discusses the results.
-Every number and automatic tree in this report is produced by our scripts (Appendix~\ref{app:repro}); \texttt{cyk.py} is used unmodified.
+\noindent\textit{Use of AI tools.} This report was prepared with Claude (Anthropic), an AI assistant, which we used for the code, the experiments and the writing. \textcolor{red}{[Optional: what the group checked or changed.]}
+
+\medskip
+\noindent We analyse the six sentences of the dataset: four general-domain sentences and two scientific sentences (biology and astronomy). Part~1 gives our manual analysis, Part~2 the automatic analysis (PoS tagging with spaCy and sciSpaCy, constituency parsing with the CYK algorithm and with the Berkeley Neural Parser), and Part~3 our observations.
 
 %==========================================================================
-\section{Manual analysis}\label{sec:manual}
+\section{Manual analysis}
 
-\subsection{Annotation conventions}
-\begin{itemize}
-  \item \textbf{Tokens.} Words and punctuation marks are split, but lexical units are kept whole: the abbreviation \emph{Dec.}, the decimal numbers \emph{19.33} and \emph{0.044}, the compound \emph{type-Ia}, and the catalogue name \emph{J10354824+3900279} (a ``Possible SuperNova'' designation built from its sky coordinates).
-  \item \textbf{Tags.} We use the imposed Universal Dependencies (UD) PoS list \rl{ADJ ADP AUX DET NOUN NUM PROPN PUNCT SCONJ VERB}. Following UD, copular and passive \emph{be} are \rl{AUX}, \emph{when}/\emph{that} introducing a clause are \rl{SCONJ}, and \emph{like}/\emph{as} before a noun phrase are \rl{ADP}.
-  \item \textbf{Exception.} \emph{they}, \emph{which} and \emph{this} are pronouns, and the list has no \rl{PRON} tag. Forcing \rl{DET} or \rl{NOUN} would put a wrong label into the reference that every evaluation relies on, so we tag them \rl{PRON} (marked $\dagger$) and treat the gap as a limitation of the tag set.
-  \item \textbf{Convention-dependent choices.} The species name \emph{Arabidopsis thaliana} is tagged \rl{PROPN} (it names a unique taxon; Penn-Treebank-style corpora use a common-noun tag). \emph{UT} (Universal Time) is tagged \rl{PROPN}, like \emph{GMT}. The variable \emph{z} is tagged \rl{NOUN}, because \rl{SYM} is not available. \emph{type-Ia} is tagged \rl{NOUN}: it heads the elliptical noun phrase \emph{a type-Ia [supernova]}.
-\end{itemize}
+\subsection{Part-of-speech tags}
+We split the sentences on spaces and punctuation, but kept \emph{Dec.}, \emph{19.33}, \emph{0.044}, \emph{type-Ia} and \emph{J10354824+3900279} as single tokens. We used the ten allowed Universal Dependencies tags. Three words (\emph{they}, \emph{which}, \emph{this}) are pronouns and none of the allowed tags fits them, so we tagged them PRON (marked with $\dagger$).
 
-\subsection{Gold part-of-speech annotation}
 {\small\raggedright\input{gen/gold.tex}\par}
 
-\subsection{Ambiguity analysis}
-Out of context, many word forms can take several PoS tags (Table~\ref{tab:ambig}). These alternatives are fed to the parser in \S\ref{sec:cyk}.
+\noindent Some choices are debatable: we tagged the species name \emph{Arabidopsis thaliana} and \emph{UT} (Universal Time) as PROPN, and the variable \emph{z} as NOUN.
 
-\begin{table}[h]\centering\small
-\caption{Words that can take another PoS out of context (gold tag / alternatives).}\label{tab:ambig}
-\begin{tabularx}{\linewidth}{lX}\toprule
-\tinput{gen/ambiguous_words.tex}
-\bottomrule\end{tabularx}
-\end{table}
-
-\noindent Structural ambiguities, and the reading we choose as target:
+\subsection{Ambiguities and expected trees}
+Out of context, several words can have another PoS than the one we chose: \input{gen/alternatives.tex}\unskip. The dataset also contains structural ambiguities:
 \begin{itemize}
-  \item \textbf{S2} \emph{Time flies like an arrow} has four readings:
-  (a) time passes as quickly as an arrow;
-  (b) imperative: time (measure) the flies that resemble an arrow;
-  (c) \emph{time-flies} (a kind of fly) are fond of an arrow;
-  (d) imperative: time the flies the way you would time an arrow.
-  Only (a) is natural and it is our target. Reading (c) changes the tags (\emph{flies}/\rl{NOUN}, \emph{like}/\rl{VERB}); (b) and (d) need \emph{Time}/\rl{VERB}.
-  \item \textbf{S3/S4.} The phrase \emph{with the telescope/revolver} can modify the verb (the instrument of seeing) or the object (the cop who holds it). World knowledge selects the verb for the telescope and the object for the revolver. Yet both sentences have the \emph{same} PoS sequence.
-  \item \textbf{S5.} The \emph{when}-clause modifies \emph{exhibit longer hypocotyls}. The relative clause \emph{which is defined as thermomorphogenesis} could attach to the closest noun phrase \emph{high ambient temperature}. However, thermomorphogenesis is the growth response to warmth, not the temperature itself, so the clause refers to the whole preceding statement.
-  \item \textbf{S6.} \emph{obtained on Dec.~19.33 UT} modifies \emph{a spectrogram of PSN J\ldots} (a spectrogram is obtained, not a supernova). \emph{at redshift z 0.044} can attach to \emph{a type-Ia} or to the predicate \emph{is a type-Ia}; both mean the same.
+  \item \emph{Time flies like an arrow} can mean that time passes quickly (\emph{flies} is the verb), that ``time flies'' (a kind of fly) like an arrow (\emph{like} is the verb), or it can be an order to time flies (\emph{Time} is the verb). We expect the first reading.
+  \item In S3 and S4, the phrase \emph{with the telescope} / \emph{with the revolver} can be attached to the verb \emph{saw} or to the noun \emph{cop}. We expect the verb attachment for S3 (the telescope is used to see) and the noun attachment for S4 (the cop has the revolver), although both sentences have exactly the same PoS tags.
+  \item In S5, \emph{which is defined as thermomorphogenesis} refers to the whole situation (seedlings growing longer when it is warm), not only to \emph{high ambient temperature}.
+  \item In S6, \emph{obtained on Dec.~19.33 UT} describes the spectrogram, and \emph{at redshift z 0.044} describes the supernova.
 \end{itemize}
-
-\subsection{Target constituency trees}
-The labels are limited to \rl{S}, \rl{NP}, \rl{VP}, \rl{PP} plus the PoS tags. The trees are drawn directly in the binary form that CYK can produce (\S\ref{sec:cyk}):
-\begin{itemize}
-  \item a one-word NP/VP is a single lexical node, e.g. \rl{(NP Time)};
-  \item pre-modifiers attach right-branching (\rl{NP $\to$ ADJ NP});
-  \item embedded clauses reuse \rl{S}, since \rl{SBAR} is not allowed.
-\end{itemize}
+Figures~\ref{fig:general} and~\ref{fig:scientific} show our expected trees. We only use the labels S, NP, VP and PP (plus the PoS tags). Because the SBAR label is not allowed, subordinate clauses are labelled S. The trees are binary so that they can be produced by the CYK algorithm (Part~2).
 
 \begin{figure}[h]\centering
-\begin{minipage}[b]{0.40\linewidth}\centering\input{gen/target_S1.tex}\\\small S1\end{minipage}\hfill
-\begin{minipage}[b]{0.40\linewidth}\centering\input{gen/target_S2.tex}\\\small S2, reading (a)\end{minipage}\\[8pt]
-\begin{minipage}[b]{0.49\linewidth}\centering\input{gen/target_S3.tex}\\\small S3: PP attached to the VP (instrument)\end{minipage}\hfill
-\begin{minipage}[b]{0.49\linewidth}\centering\input{gen/target_S4.tex}\\\small S4: PP attached to the NP (the cop's revolver)\end{minipage}
-\caption{Target trees for the general-domain sentences.}\label{fig:targets-general}
+\begin{minipage}[b]{0.45\linewidth}\centering\input{gen/target_S1.tex}\\\small S1\end{minipage}\hfill
+\begin{minipage}[b]{0.45\linewidth}\centering\input{gen/target_S2.tex}\\\small S2\end{minipage}\\[8pt]
+\begin{minipage}[b]{0.49\linewidth}\centering\input{gen/target_S3.tex}\\\small S3 (PP attached to the verb phrase)\end{minipage}\hfill
+\begin{minipage}[b]{0.49\linewidth}\centering\input{gen/target_S4.tex}\\\small S4 (PP attached to the noun phrase)\end{minipage}
+\caption{Expected trees for the general-domain sentences.}\label{fig:general}
 \end{figure}
 
 \begin{figure}[h]\centering
-\input{gen/target_S5.tex}\\[2pt]\small S5 (relative clause attached to the whole clause)\\[10pt]
-\input{gen/target_S6.tex}\\[2pt]\small S6 (\emph{obtained\ldots} modifies \emph{A spectrogram of PSN\ldots}; \emph{at redshift\ldots} modifies \emph{a type-Ia})
-\caption{Target trees for the specialty-domain sentences.}\label{fig:targets-special}
+\input{gen/target_S5.tex}\\\small S5\\[8pt]
+\input{gen/target_S6.tex}\\\small S6
+\caption{Expected trees for the scientific sentences.}\label{fig:scientific}
 \end{figure}
 
 %==========================================================================
-\section{Automatic analysis}\label{sec:auto}
+\section{Automatic analysis}
 
-\subsection{PoS tagging: spaCy vs.\ sciSpaCy}
-\textbf{Models.} We compare two models, both running on spaCy~3.7.5:
-\begin{itemize}
-  \item \texttt{en\_core\_web\_sm}~3.7.1, trained on OntoNotes~5 (reported tag accuracy 97.2\%);
-  \item sciSpaCy \texttt{en\_core\_sci\_sm}~0.5.4, trained on GENIA~1.0 (MEDLINE abstracts about human blood cells and transcription factors) and OntoNotes~5.
-\end{itemize}
-Both models predict fine-grained Penn Treebank (PTB) tags. The universal tag is then derived by rules (spaCy's \texttt{attribute\_ruler}). Tokens are aligned with the gold tokens by character offsets; a token that a model splits or merges counts as an error.
+\subsection{PoS tagging with spaCy and sciSpaCy}
+We used spaCy 3.7.5 with the model \texttt{en\_core\_web\_sm} 3.7.1 (trained on general English), and sciSpaCy with the model \texttt{en\_core\_sci\_sm} 0.5.4 (trained on biomedical texts). Table~\ref{tab:acc} compares them with our manual tags, and Table~\ref{tab:diff} lists every token where a model disagrees with us. When a model splits one of our tokens, we count it as an error.
 
 \begin{table}[h]\centering\small
-\caption{Tagging accuracy against the manual annotation (73 tokens).}\label{tab:acc}
-\begin{tabular}{lcccc}\toprule
-Model & General (S1--S4) & Specialty (S5--S6) & All & Tokenisation mismatches \\\midrule
+\caption{Accuracy against our manual tags.}\label{tab:acc}
+\begin{tabular}{lccc}\toprule
+Model & General (S1--S4) & Scientific (S5--S6) & All \\\midrule
 \tinput{gen/pos_acc.tex}
 \bottomrule\end{tabular}
 \end{table}
 
-\begin{table}[h]\centering\footnotesize
-\caption{Every token where a model differs from the gold tag (errors in red; the PTB tag is in subscript).}\label{tab:posdiff}
+\begin{table}[h]\centering\small
+\caption{Tokens where a model disagrees with our manual tags.}\label{tab:diff}
 \begin{tabularx}{\linewidth}{lll>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}\toprule
- & Token & Gold & \texttt{en\_core\_web\_sm} & \texttt{en\_core\_sci\_sm} \\\midrule
+ & Token & Manual & \texttt{en\_core\_web\_sm} & \texttt{en\_core\_sci\_sm} \\\midrule
 \tinput{gen/pos_diff.tex}
 \bottomrule\end{tabularx}
 \end{table}
 
-\noindent What the differences show:
-\begin{enumerate}
-  \item \textbf{General domain.} Both models are almost perfect. The only error is sciSpaCy tagging \emph{flies} as \rl{NOUN} (the \emph{time-flies} reading). That choice is plausible locally, but combined with \emph{like}/\rl{ADP} the sentence is left without any verb (see \S\ref{sec:cyk}).
-  \item \textbf{Unknown domain word.} Both models read the plant term \emph{hypocotyls} as an adjective and then \emph{longer} as an adverb (\emph{exhibit longer}). One unknown word produces two errors. Being ``biomedical'' does not help sciSpaCy here: plant morphology and astronomy are outside GENIA.
-  \item \textbf{Tokenisation.} Both tokenisers split \emph{J10354824+3900279}, and sciSpaCy even tags \emph{+} as a coordinating conjunction. spaCy also splits \emph{type-Ia}; sciSpaCy's tokeniser, adapted to hyphenated biomedical terms, keeps it whole.
-  \item \textbf{Conventions, not errors.} Both models tag \emph{Arabidopsis thaliana} as a common noun (the PTB/GENIA convention). This disagrees with our \rl{PROPN} choice without either side being wrong.
-  \item \textbf{\emph{which}/\emph{this}: a pipeline effect.} Both models predict the \emph{same} PTB tags (\rl{WDT}, \rl{DT}), yet their universal tags differ. The mapping rule ``\rl{DT}/\rl{WDT} whose dependency relation is not \rl{det} $\to$ \rl{PRON}'' needs the parser's output. In \texttt{en\_core\_web\_sm} the \texttt{attribute\_ruler} runs \emph{after} the parser, so the rule fires (\rl{PRON}). In \texttt{en\_core\_sci\_sm} it runs \emph{before} the parser, so it never fires (\rl{DET}). The difference comes from component order, not from the statistical model.
-\end{enumerate}
-With 73 tokens, one token is worth 1.4 points of accuracy, so these results should be read qualitatively.
-
-\subsection{Constituency parsing with CYK}\label{sec:cyk}
-\textbf{The implementation.}
+\noindent Our main remarks:
 \begin{itemize}
-  \item \texttt{cyk.py} receives a \emph{list} of candidate tags for each word, so lexical ambiguity can be passed to the parser.
-  \item It accepts only binary rules $X \to Y\,Z$ and lexical rules $X \to \textit{tag}$ (Chomsky normal form, CNF). It has no unary rule $X \to Y$, so unit rules are eliminated as in CNF conversion: \rl{NP $\to$ NOUN $\mid$ PROPN $\mid$ PRON $\mid$ NUM} and \rl{VP $\to$ VERB} become lexical rules.
-  \item It builds every tree explicitly and returns \emph{all} constituents covering the input, whatever their label; we keep those labelled \rl{S}.
-  \item To avoid materialising millions of trees, we first count them with the same dynamic programme.
-  \item Sanity check: with the grammar of its docstring, it reproduces the documented tree for \emph{The cat sat on the couch}.
+  \item On the general sentences both models are almost perfect. sciSpaCy tags \emph{flies} as NOUN, which is a possible reading, but with \emph{like} tagged ADP the sentence then has no verb.
+  \item On the scientific sentences both models make the same mistakes on \emph{longer} (ADV) and \emph{hypocotyls} (ADJ): \emph{hypocotyls} is a rare plant-biology word. sciSpaCy is not better here, probably because it was trained on biomedical texts, not on plant biology or astronomy.
+  \item Both tokenisers split \emph{J10354824+3900279}, and spaCy also splits \emph{type-Ia}.
+  \item Some disagreements are conventions rather than errors. Both models tag \emph{Arabidopsis thaliana} as NOUN. For \emph{which} and \emph{this}, both models predict the same Penn Treebank tags (WDT, DT), but the conversion to universal tags gives PRON in spaCy and DET in sciSpaCy.
 \end{itemize}
 
-\noindent\textbf{Grammars.} Every grammar contains a lexicon mapping each tag to itself, plus the unit rules \input{gen/grammar_lexicon.tex}\unskip.
-\begin{description}[leftmargin=1em, style=nextline]
-  \item[\rl{G\_general} (8 binary rules)] \input{gen/grammar_general.tex}\unskip.
-  \item[\rl{G\_general+imp}] \rl{G\_general} + the CNF image of the imperative rule \rl{S $\to$ VP}: \input{gen/grammar_imp.tex}\unskip.
-  \item[\rl{G\_full} (19 binary rules)] \rl{G\_general} + 11 rules for the specialty sentences: \input{gen/grammar_added.tex}\unskip.
-  \item[\rl{G\_treebank}] The rules read off our six target trees, i.e.\ \rl{G\_full} without \rl{NP $\to$ NP S}, which no target uses.
-\end{description}
-We avoid \emph{spurious} ambiguity (the same analysis built twice). Since \rl{VP $\to$ VERB} is lexical, no grammar has both $X \to$ \rl{VERB} $Y$ and $X \to$ \rl{VP} $Y$. We use \rl{VP $\to$ AUX VERB} rather than \rl{VP $\to$ AUX VP}, which would build both [are [grown under\ldots]] and [[are grown] under\ldots]. For the same reason we use \rl{NP $\to$ DET NOUN} rather than \rl{NP $\to$ DET NP}.
-
-\noindent\textbf{PoS inputs.}
+\subsection{Constituency parsing with CYK}
+The provided \texttt{cyk.py} takes a list of possible tags for each word and returns all the trees that cover the sentence. It only accepts rules of the form X $\to$ Y Z and X $\to$ tag (Chomsky normal form), so one-word phrases are written as lexical rules: a NOUN, PROPN, PRON or NUM can directly be an NP, and a VERB can directly be a VP. We only keep the trees whose root is S. We wrote two grammars:
 \begin{itemize}
-  \item \emph{manual}: the gold tags;
-  \item \emph{spaCy} and \emph{sciSpaCy}: the tags each model outputs, on its own tokens;
-  \item \emph{ambiguous}: for each word, the union of the gold tag, the alternatives of Table~\ref{tab:ambig} and both taggers' tags.
+  \item \textbf{G1} (general sentences): \input{gen/grammar_g1.tex}\unskip.
+  \item \textbf{G2} = G1 + the rules needed for the scientific sentences: \input{gen/grammar_g2.tex}\unskip.
 \end{itemize}
+We ran CYK with four inputs: our manual tags, the spaCy tags, the sciSpaCy tags, and ``multiple PoS'', where each word receives our tag, its other possible PoS (Section~1.2) and the tags given by the two models. Table~\ref{tab:cyk} gives the number of trees.
 
 \begin{table}[h]\centering\small
-\caption{Number of \rl{S}-rooted trees returned by CYK (final period kept). \ok{} and bold: the target tree is among them. \notenum: counted but too many trees to build (the target is derivable, since it is found with the smaller \rl{G\_treebank}).}\label{tab:cyk}
+\caption{Number of trees returned by CYK (\checkmark: our expected tree is one of them).}\label{tab:cyk}
 \begin{tabular}{llcccc}\toprule
- & PoS input & \rl{G\_general} & \rl{G\_general+imp} & \rl{G\_full} & \rl{G\_treebank} \\\midrule
+ & Grammar & Manual tags & spaCy tags & sciSpaCy tags & Multiple PoS \\\midrule
 \tinput{gen/cyk_counts.tex}
 \bottomrule\end{tabular}
 \end{table}
 
-\paragraph{Time flies like an arrow.}
-The ambiguous input is \input{gen/s2_tags.tex}\unskip.
-\begin{itemize}
-  \item \rl{G\_general} returns readings (a) and (c).
-  \item Adding the two imperative rules returns \emph{exactly} the four readings of \S1.3 (Fig.~\ref{fig:timeflies}), including the three trees of the lecture's Chomsky example.
-  \item \rl{G\_full} returns three trees instead. The extra one, \rl{(S (NP (NP Time) (VP flies)) (VP like an arrow))} (``time [that] flies like(s) an arrow''), comes from the reduced-relative rule \rl{NP $\to$ NP VP} added for S6. It is not English: the verb agreement is wrong, and a reduced relative needs a participle. But a context-free grammar over universal tags sees neither agreement nor finiteness, since \rl{VBZ} and \rl{VBN} both become \rl{VERB}.
-  \item Adding the imperative rules to \rl{G\_full} gives \input{gen/s2_notes.tex}\unskip{} trees: rules added for one sentence interact with all the others.
-  \item With a single tag per word, the manual and spaCy tags yield only the intended tree (the tagger has already chosen the reading), whereas sciSpaCy's tags yield \emph{no} tree.
-\end{itemize}
+\paragraph{Time flies like an arrow.} With multiple PoS, G1 returns two trees: the expected one (Fig.~\ref{fig:timeflies}a) and ``time-flies like an arrow'' (Fig.~\ref{fig:timeflies}c). If we add two rules for imperative sentences (S $\to$ VERB NP and S $\to$ VP PP), we also get the two readings where \emph{Time} is a verb (b and d). With G2, the rule NP $\to$ NP VP adds a third tree meaning ``time [that] flies like an arrow'', which is wrong: the grammar does not check agreement. With the sciSpaCy tags there is no tree at all, because the sentence has no verb.
 
 \begin{figure}[h]\centering
 \input{gen/time_flies.tex}
-\caption{The four trees of \emph{Time flies like an arrow} returned by \rl{G\_general+imp} (final period omitted). Readings as in \S1.3.}\label{fig:timeflies}
+\caption{The four trees returned for \emph{Time flies like an arrow} with multiple PoS and the imperative rules.}\label{fig:timeflies}
 \end{figure}
 
-\paragraph{The spy sentences.} Every grammar and every input gives exactly two trees for S3 and for S4: PP attached to the VP (Fig.~\ref{fig:targets-general}, S3) and PP attached to the NP (S4). The two sentences share the PoS sequence \rl{DET NOUN VERB DET NOUN ADP DET NOUN}, so \emph{any} grammar over PoS tags returns the same set of trees for both. No single context-free grammar over tags can give the instrument reading for \emph{telescope} and the possession reading for \emph{revolver}: that requires lexical information, e.g.\ a lexicalised probabilistic grammar estimating how likely a \emph{with}-phrase headed by \emph{telescope} or \emph{revolver} is to attach to \emph{saw} or to \emph{cop}. Deleting one attachment rule to force a reading would break the other sentence.
+\paragraph{The spy sentences.} For S3 and S4, CYK always returns the same two trees, one with the PP attached to the verb phrase and one with the PP attached to the noun phrase (Fig.~\ref{fig:general}). The grammar only sees PoS tags, and the two sentences have the same tags, so it cannot choose the verb reading for the telescope and the noun reading for the revolver. This would require information about the words themselves, for example probabilities learned from a treebank.
 
-\paragraph{The specialty sentences.} \rl{G\_general} cannot parse S5 or S6: it lacks rules for adjectives and proper nouns as modifiers, auxiliaries and subordinate clauses. \rl{G\_full} derives both targets, but among 633 and 557 trees. The ambiguity breaks down as follows.
+\paragraph{The scientific sentences.} G1 cannot parse S5 and S6. With G2 our expected trees are found, but among 97 trees for S5 and 300 for S6: the grammar cannot decide where the \emph{when} clause, the relative clause, \emph{obtained on\ldots} or the PPs are attached, and the comma and the final period can also be attached at different levels. With the tags of spaCy or sciSpaCy there is no tree, because some tags (\emph{longer}/ADV, \emph{hypocotyls}/ADJ, \emph{this}/DET) and the extra tokens created by the tokenisers (\emph{+}, \emph{-}) cannot be combined by the grammar.
+
+\subsection{Comparison with the Berkeley Neural Parser}
+We used the Berkeley Neural Parser (benepar 0.2.0, model \texttt{benepar\_en3}) through its spaCy plugin. Compared with our expected trees:
 \begin{itemize}
-  \item \textbf{Punctuation (spurious).} \rl{S $\to$ S PUNCT} can attach the final period to any clause that ends the sentence, e.g.\ inside the relative clause. Removing the period halves the counts (Table~\ref{tab:punct}) without changing any phrase.
-  \item \textbf{Coverage vs.\ ambiguity.} \rl{NP $\to$ NP S} (a relative clause modifying a noun) is needed in general English, but no target uses it here. Removing it (\rl{G\_treebank}) leaves 97 and 300 trees.
-  \item \textbf{Genuine attachment decisions.} Without the final period, \rl{G\_treebank} yields 38 trees for S5. They agree on every local phrase and differ only on where the \emph{when}-clause attaches (VP or clause), where the relative clause attaches (main clause, main VP, \emph{when}-clause, or \emph{they are grown\ldots}), on which side the comma goes, and whether \emph{under\ldots} and \emph{as\ldots} attach low or high. The 116 trees for S6 differ on which NP \emph{obtained\ldots} modifies, on how the date \emph{Dec.\ 19.33 UT} is bracketed (some trees even read \emph{19.33 UT suggests\ldots} as a clause), on whether \emph{that\ldots} attaches to the VP or to the clause, and on where \emph{at redshift\ldots} attaches. The number of trees is roughly the product of the choices at each decision point, so it grows exponentially with sentence length. With the ambiguous input, the counts reach 5064 and 4632.
-  \item \textbf{Tagger input: no tree at all.} In S5, \emph{longer}/\rl{ADV} is covered by no rule, and \emph{hypocotyls}/\rl{ADJ} cannot head a noun phrase. In S6, the split-off tokens \emph{+} (from \emph{J10354824+3900279}) and, for spaCy, the hyphen of \emph{type-Ia} appear in no rule, and sciSpaCy's \emph{this}/\rl{DET} and \emph{which}/\rl{DET} cannot form a noun phrase. One wrong tag or token is enough to lose the whole analysis, and CYK returns no partial result.
+  \item S1, S2 and S3 have the same structure (S2 with the ``time passes'' reading, S3 with the PP attached to the verb).
+  \item In S4, \emph{with the revolver} is also attached to the verb, as in S3.
+  \item In S5, the \emph{when} clause is attached to the verb phrase as in our tree, but the relative clause is attached to \emph{high ambient temperature}. The parser's own tagger gets \emph{longer} and \emph{hypocotyls} right.
+  \item In S6, the main structure is the same as ours, except that \emph{at redshift z 0.044} is attached to the verb phrase. The parser gives the same tree with spaCy's tokenisation, where CYK gave no tree.
 \end{itemize}
-
-\begin{table}[h]\centering\small
-\caption{Effect of the sentence-final period on the number of trees (manual tags).}\label{tab:punct}
-\begin{tabular}{llcc}\toprule
- & Grammar & Period kept & Period removed \\\midrule
-\tinput{gen/punct.tex}
-\bottomrule\end{tabular}
-\end{table}
-
-\subsection{Comparison with a neural constituency parser}
-We use the Berkeley Neural Parser (\texttt{benepar}~0.2.0, model \texttt{benepar\_en3}: T5-small encoder, 95.40 F1 on the revised WSJ test set) through its spaCy plugin. We parse both the raw text and our gold tokens: S1--S5 get identical trees, and S6 differs only by spaCy's token splits. Table~\ref{tab:benepar} compares the decisive points with our targets.
-
-\begin{table}[h]\centering\small
-\caption{Key decisions: our target vs.\ \texttt{benepar\_en3}.}\label{tab:benepar}
-\begin{tabularx}{\linewidth}{llXXc}\toprule
- & Decision & Target (\S1.4) & benepar & Same? \\\midrule
-S1 & whole tree & -- & same bracketing & \ok \\
-S2 & reading & (a) time passes & (a) & \ok \\
-S3 & \emph{with the telescope} & attached to VP (instrument) & attached to VP & \ok \\
-S4 & \emph{with the revolver} & attached to NP (possession) & attached to VP & $\times$ \\
-S5 & \emph{when}-clause & attached to VP \emph{exhibit\ldots} & attached to VP & \ok \\
-S5 & relative clause \emph{which\ldots} & whole clause & NP \emph{high ambient temperature} & $\times$ \\
-S5 & \emph{Arabidopsis thaliana seedlings} & right-branching (grammar limit) & [[Arabidopsis thaliana] seedlings] (\rl{NML}) & better \\
-S6 & \emph{obtained on\ldots} & \emph{A spectrogram of PSN\ldots} & same & \ok \\
-S6 & \emph{at redshift z 0.044} & attached to NP \emph{a type-Ia} & attached to VP \emph{is\ldots} & $\approx$ \\
-S6 & spaCy tokens (\emph{+}, \emph{type - Ia}) & CYK: no tree & correct tree & -- \\
-\bottomrule\end{tabularx}
-\end{table}
-
-\begin{figure}[h]\centering
-\begin{minipage}[b]{0.62\linewidth}\centering\input{gen/benepar_S4.tex}\\\small S4: \emph{with the revolver} attached to the verb phrase\end{minipage}\\[8pt]
-\input{gen/benepar_S5.tex}\\\small S5: the relative clause attached to \emph{high ambient temperature}
-\caption{Two \texttt{benepar\_en3} trees (Penn Treebank labels) that differ from our targets.}\label{fig:benepar}
-\end{figure}
-
-\noindent benepar always outputs a single tree and uses richer labels (\rl{SBAR}, \rl{WHNP}, \rl{NML}). Tagging jointly with the whole sentence, it gets \emph{longer}/\rl{JJR} and \emph{hypocotyls}/\rl{NNS} right, where both spaCy taggers failed. Its errors come from treebank preferences rather than meaning: the same attachment for \emph{telescope} and \emph{revolver}, and attachment of the relative clause to the closest noun phrase.
 
 %==========================================================================
-\section{Observations}\label{sec:obs}
+\section{Observations}
 
-\subsection{PoS tagging approaches}
-\begin{tabularx}{\linewidth}{>{\bfseries}p{2.3cm}XX}\toprule
- & Strengths & Weaknesses \\\midrule
-Manual & Uses meaning and world knowledge (elliptical \emph{type-Ia}; \emph{which} referring to a clause); convention choices are explicit and documented. & Slow, does not scale; needs written conventions. The imposed tag set (no \rl{PRON}, \rl{ADV}, \rl{CCONJ}, \rl{SYM}) forces compromises, and some decisions (\rl{PROPN} vs.\ \rl{NOUN} for species) are conventions on which corpora disagree, so ``accuracy'' partly measures agreement on conventions. \\\addlinespace
-spaCy (\texttt{web\_sm}) & Fast; 100\% on general sentences; resolves lexical ambiguity from context (\emph{flies}/\rl{VERB}). & Unknown domain words cause chains of errors (\emph{hypocotyls} $\to$ \rl{ADJ}, then \emph{longer} $\to$ \rl{ADV}); the generic tokeniser splits identifiers and hyphenated terms; universal tags are converted from PTB tags by rules. \\\addlinespace
-sciSpaCy (\texttt{sci\_sm}) & Domain tokeniser (\emph{type-Ia} kept whole); scientific vocabulary. & ``Biomedical'' $\neq$ all science: no gain on plant biology or astronomy (81.0\% vs.\ 85.7\%), and worse on general text; its tag conversion runs before the parser, so pronoun \rl{DT}/\rl{WDT} become \rl{DET}. \\
-\bottomrule\end{tabularx}
+\paragraph{PoS tagging.} Manual annotation is the most reliable because we can use the meaning of the sentence, but it is slow and depends on conventions, and the imposed tag set has no PRON. spaCy is fast and very accurate on general English, but it makes mistakes on unknown scientific words and splits identifiers. sciSpaCy did not do better on our scientific sentences, because its training domain (biomedical texts) is different from plant biology and astronomy. With only 73 tokens, these results are only indicative.
 
-\subsection{Grammar-based parsing with CYK}
-\begin{enumerate}
-  \item \textbf{The grammar is the model.} Each rule is a linguistic hypothesis. With 19 binary rules and 5 unit lexical rules, all six targets are derivable.
-  \item \textbf{Coverage costs ambiguity.} Every rule added for one sentence multiplies the trees of the others: with the imperative rules, S2 grows from 3 to 23 trees under \rl{G\_full}, and S5 grows from 97 to 633 with \rl{NP $\to$ NP S}. CYK cannot rank the trees, only enumerate them, and this implementation stores all of them, so memory grows exponentially. A practical parser keeps back-pointers and selects the best tree with a probabilistic grammar (PCFG) and the Viterbi algorithm.
-  \item \textbf{CNF and the restricted labels shape the trees.} Without unary rules, one-word NPs/VPs become lexical nodes. Without an intermediate noun level, \rl{NML} or \rl{SBAR}, compounds can only branch to the right (\emph{Arabidopsis thaliana seedlings} should branch left), clauses must reuse \rl{S}, and some ambiguity is spurious (position of punctuation).
-  \item \textbf{Universal tags are too coarse for syntax.} Finite and participle verbs share \rl{VERB}, and there are no agreement features, so the grammar over-generates (\emph{Time [that] flies like an arrow}). Agreement cannot be expressed context-free without multiplying the symbols.
-  \item \textbf{No lexical semantics.} A grammar over PoS tags gives identical outputs for S3 and S4.
-  \item \textbf{Fragile pipeline.} A single tagging or tokenisation error leaves no tree (S2 with sciSpaCy; S5 and S6 with both taggers). Passing several candidate tags restores the target but multiplies the trees (up to 5064).
-\end{enumerate}
-
-\subsection{Grammar-based vs.\ neural parsing}
-The neural parser is robust: it always returns a tree, copes with unknown words and different tokenisations, and matches our targets on most decisions. But it returns a single tree without signalling that the sentence is ambiguous, and its attachment choices reflect treebank statistics, not meaning (S4, and the relative clause in S5). CYK with a hand-written grammar has the opposite profile: every ambiguity is explicit, but it ranks nothing and breaks on a single wrong input. Scoring the CYK chart with probabilities (a PCFG or a neural scorer) and returning the $n$ best trees would combine the robustness of the neural parser with the explicit ambiguities of the chart.
-
-\appendix
-\section{Reproducibility}\label{app:repro}
-\small\sloppy
-Python 3.11; spaCy 3.7.5 with \texttt{en\_core\_web\_sm} 3.7.1; scispacy 0.6.2 with \texttt{en\_core\_sci\_sm} 0.5.4; benepar 0.2.0 (\texttt{benepar\_en3}) with torch 2.14 (CPU) and transformers 4.46.3; nltk. Two environment issues and their fixes:
+\paragraph{CYK with a context-free grammar.} Writing the grammar gives full control over the trees, but we saw several limits:
 \begin{itemize}
-  \item benepar~0.2.0 calls a tokenizer method removed in transformers~5, so transformers is pinned to 4.x.
-  \item sentencepiece cannot open a model file under a Windows path containing non-ASCII characters, so the model is copied to an ASCII folder.
+  \item A rule added for one sentence can create new, wrong trees for other sentences (S2 with G2).
+  \item CYK returns all possible trees and cannot rank them: S5 and S6 have hundreds of trees. A probabilistic grammar would be needed to choose the best one.
+  \item The grammar only sees PoS tags, so it cannot use the meaning of words (telescope vs.\ revolver) or check agreement.
+  \item One wrong tag or token is enough to get no tree at all.
+  \item With only S, NP, VP and PP, subordinate clauses must be labelled S, and compounds such as \emph{Arabidopsis thaliana seedlings} can only be built right-branching.
 \end{itemize}
-Scripts: \texttt{data.py} (dataset, gold tags, target trees), \texttt{pos\_tagging.py}, \texttt{grammar.py} (grammars and tree counting), \texttt{cyk\_experiments.py}, \texttt{benepar\_parse.py}, \texttt{report\_assets.py} (all tables and trees of this report).
+
+\paragraph{Neural parser.} The Berkeley parser always returns a tree, handles unknown words and different tokenisations, and agrees with most of our choices. However, it returns a single tree even when the sentence is ambiguous, and its attachment choices (S4, the relative clause in S5) seem to follow what is frequent in its training data rather than the meaning of the sentence.
 
 \end{document}

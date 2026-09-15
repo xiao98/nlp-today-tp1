@@ -6,7 +6,7 @@ ADJ ADP AUX DET NOUN NUM PROPN PUNCT SCONJ VERB.
 PRON is used for 3 tokens (they, which, this) because no tag of the list fits them.
 
 Target trees are the parses we want the CFG to produce, written in the
-binarisation used by grammar.G_FULL (lexical NP/VP nodes = unit rules folded
+binarisation used by grammar.G2 (lexical NP/VP nodes = unit rules folded
 into the lexicon, as required by Chomsky normal form).
 """
 

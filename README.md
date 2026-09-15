@@ -9,8 +9,8 @@ Université Paris-Saclay, *NLP Today* (T. Gerald). Lab report for session 1 ([in
 | `data.py` | the 6 sentences, manual PoS annotation, target constituency trees |
 | `pos_tagging.py` | spaCy `en_core_web_sm` vs sciSpaCy `en_core_sci_sm`, scored against the manual tags |
 | `cyk.py` | CYK implementation provided by the course (unmodified) |
-| `grammar.py` | grammars in Chomsky normal form + tree counting |
-| `cyk_experiments.py` | CYK over 4 grammars × 4 PoS inputs |
+| `grammar.py` | grammars G1 (general sentences) and G2 (+ scientific sentences) in Chomsky normal form |
+| `cyk_experiments.py` | CYK with manual, spaCy, sciSpaCy and multiple-PoS inputs |
 | `benepar_parse.py` | neural constituency parser (`benepar_en3`) for comparison |
 | `report_assets.py` | turns `results/*.json` into the LaTeX tables and trees in `report/gen/` |
 
