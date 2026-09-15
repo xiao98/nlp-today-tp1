@@ -1,0 +1,44 @@
+[
+ {
+  "id": "S1",
+  "gold_tokens": "(TOP (S (NP (DT The) (NN cat)) (VP (VBD sat) (PP (IN on) (NP (DT the) (NN couch)))) (. .)))",
+  "spacy_pipeline": [
+   "(S (NP (DT The) (NN cat)) (VP (VBD sat) (PP (IN on) (NP (DT the) (NN couch)))) (. .))"
+  ]
+ },
+ {
+  "id": "S2",
+  "gold_tokens": "(TOP (S (NP (NN Time)) (VP (VBZ flies) (PP (IN like) (NP (DT an) (NN arrow)))) (. .)))",
+  "spacy_pipeline": [
+   "(S (NP (NN Time)) (VP (VBZ flies) (PP (IN like) (NP (DT an) (NN arrow)))) (. .))"
+  ]
+ },
+ {
+  "id": "S3",
+  "gold_tokens": "(TOP (S (NP (DT The) (NN spy)) (VP (VBD saw) (NP (DT the) (NN cop)) (PP (IN with) (NP (DT the) (NN telescope)))) (. .)))",
+  "spacy_pipeline": [
+   "(S (NP (DT The) (NN spy)) (VP (VBD saw) (NP (DT the) (NN cop)) (PP (IN with) (NP (DT the) (NN telescope)))) (. .))"
+  ]
+ },
+ {
+  "id": "S4",
+  "gold_tokens": "(TOP (S (NP (DT The) (NN spy)) (VP (VBD saw) (NP (DT the) (NN cop)) (PP (IN with) (NP (DT the) (NN revolver)))) (. .)))",
+  "spacy_pipeline": [
+   "(S (NP (DT The) (NN spy)) (VP (VBD saw) (NP (DT the) (NN cop)) (PP (IN with) (NP (DT the) (NN revolver)))) (. .))"
+  ]
+ },
+ {
+  "id": "S5",
+  "gold_tokens": "(TOP (S (NP (NML (NNS Arabidopsis) (NN thaliana)) (NNS seedlings)) (VP (VBP exhibit) (NP (JJR longer) (NNS hypocotyls)) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBP are) (VP (VBN grown) (PP (IN under) (NP (NP (JJ high) (JJ ambient) (NN temperature)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ is) (VP (VBN defined) (PP (IN as) (NP (NN thermomorphogenesis)))))))))))))) (. .)))",
+  "spacy_pipeline": [
+   "(S (NP (NML (NNS Arabidopsis) (NN thaliana)) (NNS seedlings)) (VP (VBP exhibit) (NP (JJR longer) (NNS hypocotyls)) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBP are) (VP (VBN grown) (PP (IN under) (NP (NP (JJ high) (JJ ambient) (NN temperature)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ is) (VP (VBN defined) (PP (IN as) (NP (NN thermomorphogenesis)))))))))))))) (. .))"
+  ]
+ },
+ {
+  "id": "S6",
+  "gold_tokens": "(TOP (S (NP (NP (NP (DT A) (NN spectrogram)) (PP (IN of) (NP (NNP PSN) (CD J10354824+3900279)))) (VP (VBN obtained) (PP (IN on) (NP (NNP Dec.) (CD 19.33) (NNP UT))))) (VP (VBZ suggests) (SBAR (IN that) (S (NP (DT this)) (VP (VBZ is) (NP (DT a) (NN type-Ia)) (PP (IN at) (NP (NN redshift) (NN z) (CD 0.044))))))) (. .)))",
+  "spacy_pipeline": [
+   "(S (NP (NP (NP (DT A) (NN spectrogram)) (PP (IN of) (NP (NNP PSN) (CD J10354824) (HYPH +) (CD 3900279)))) (VP (VBN obtained) (PP (IN on) (NP (NNP Dec.) (CD 19.33) (NNP UT))))) (VP (VBZ suggests) (SBAR (IN that) (S (NP (DT this)) (VP (VBZ is) (NP (DT a) (NN type) (HYPH -) (NN Ia)) (PP (IN at) (NP (NN redshift) (NN z) (CD 0.044))))))) (. .))"
+  ]
+ }
+]

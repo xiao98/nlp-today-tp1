@@ -1,0 +1,13823 @@
+{
+ "results": [
+  {
+   "id": "S1",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1,
+    "NP": 2
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1,
+    "NP": 2
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1,
+    "NP": 2
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1,
+    "NP": 2
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1,
+    "NP": 2
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1,
+    "NP": 2
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1,
+    "NP": 2
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S1",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "cat",
+    "sat",
+    "on",
+    "the",
+    "couch"
+   ],
+   "roots": {
+    "S": 1,
+    "NP": 2
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN cat)) (VP (VP sat) (PP (ADP on) (NP (DET the) (NOUN couch)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "S": 1,
+    "NP": 2
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "S": 1,
+    "NP": 2
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADP",
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))",
+    "(S (S (NP (NOUN Time) (NP flies)) (VP (VERB like) (NP (DET an) (NOUN arrow)))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADP",
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {
+    "S": 4
+   },
+   "n_S": 4,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))",
+    "(S (S (VERB Time) (NP (NP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))",
+    "(S (S (NP (NOUN Time) (NP flies)) (VP (VERB like) (NP (DET an) (NOUN arrow)))) (PUNCT .))",
+    "(S (S (VP (VERB Time) (NP flies)) (PP (ADP like) (NP (DET an) (NOUN arrow)))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADP",
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {
+    "NP": 1,
+    "VP": 1,
+    "S": 3
+   },
+   "n_S": 3,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))",
+    "(S (S (NP (NOUN Time) (NP flies)) (VP (VERB like) (NP (DET an) (NOUN arrow)))) (PUNCT .))",
+    "(S (S (NP (NP Time) (VP flies)) (VP (VERB like) (NP (DET an) (NOUN arrow)))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADP",
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {
+    "VP": 1,
+    "S": 3
+   },
+   "n_S": 3,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))",
+    "(S (S (NP (NOUN Time) (NP flies)) (VP (VERB like) (NP (DET an) (NOUN arrow)))) (PUNCT .))",
+    "(S (S (NP (NP Time) (VP flies)) (VP (VERB like) (NP (DET an) (NOUN arrow)))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADP",
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 2,
+    "VP": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))",
+    "(S (NP (NOUN Time) (NP flies)) (VP (VERB like) (NP (DET an) (NOUN arrow))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADP",
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "S": 4,
+    "NP": 2,
+    "VP": 2
+   },
+   "n_S": 4,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))",
+    "(S (VERB Time) (NP (NP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))",
+    "(S (NP (NOUN Time) (NP flies)) (VP (VERB like) (NP (DET an) (NOUN arrow))))",
+    "(S (VP (VERB Time) (NP flies)) (PP (ADP like) (NP (DET an) (NOUN arrow))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADP",
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "S": 3,
+    "NP": 8,
+    "VP": 4
+   },
+   "n_S": 3,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))",
+    "(S (NP (NOUN Time) (NP flies)) (VP (VERB like) (NP (DET an) (NOUN arrow))))",
+    "(S (NP (NP Time) (VP flies)) (VP (VERB like) (NP (DET an) (NOUN arrow))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADP",
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "S": 3,
+    "NP": 7,
+    "VP": 4
+   },
+   "n_S": 3,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))",
+    "(S (NP (NOUN Time) (NP flies)) (VP (VERB like) (NP (DET an) (NOUN arrow))))",
+    "(S (NP (NP Time) (VP flies)) (VP (VERB like) (NP (DET an) (NOUN arrow))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "S": 1
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "S": 1,
+    "NP": 2
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "S": 1,
+    "NP": 2
+   },
+   "n_S": 1,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP Time) (VP (VP flies) (PP (ADP like) (NP (DET an) (NOUN arrow)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "NP": 2
+   },
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "NP": 2
+   },
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "NP": 2
+   },
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S2",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Time",
+    "flies",
+    "like",
+    "an",
+    "arrow"
+   ],
+   "roots": {
+    "NP": 2
+   },
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 1,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S3",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "telescope"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN telescope))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN telescope)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver",
+    "."
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": 0,
+   "trees": [
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver)))))) (PUNCT .))",
+    "(S (S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver))))) (PUNCT .))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S4",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "The",
+    "spy",
+    "saw",
+    "the",
+    "cop",
+    "with",
+    "the",
+    "revolver"
+   ],
+   "roots": {
+    "S": 2,
+    "NP": 3
+   },
+   "n_S": 2,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [
+    "(S (NP (DET The) (NOUN spy)) (VP (VERB saw) (NP (NP (DET the) (NOUN cop)) (PP (ADP with) (NP (DET the) (NOUN revolver))))))",
+    "(S (NP (DET The) (NOUN spy)) (VP (VP (VERB saw) (NP (DET the) (NOUN cop))) (PP (ADP with) (NP (DET the) (NOUN revolver)))))"
+   ],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {
+    "NP": 3881,
+    "S": 633
+   },
+   "n_S": 633,
+   "enumerated": true,
+   "target_index": 610,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {
+    "NP": 78,
+    "S": 97
+   },
+   "n_S": 97,
+   "enumerated": true,
+   "target_index": 87,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {
+    "NP": 4374,
+    "S": 315
+   },
+   "n_S": 315,
+   "enumerated": true,
+   "target_index": null,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {
+    "NP": 123,
+    "S": 38
+   },
+   "n_S": 38,
+   "enumerated": true,
+   "target_index": null,
+   "trees": null,
+   "disputed": [
+    {
+     "label": "S",
+     "span": [
+      0,
+      15
+     ],
+     "text": "Arabidopsis thaliana seedlings exhibit longer hypocotyls when they are grown under high ambient temperature ,",
+     "share": "7/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      0,
+      14
+     ],
+     "text": "Arabidopsis thaliana seedlings exhibit longer hypocotyls when they are grown under high ambient temperature",
+     "share": "6/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      0,
+      6
+     ],
+     "text": "Arabidopsis thaliana seedlings exhibit longer hypocotyls",
+     "share": "11/38"
+    },
+    {
+     "label": "VP",
+     "span": [
+      3,
+      20
+     ],
+     "text": "exhibit longer hypocotyls when they are grown under high ambient temperature , which is defined as thermomorphogenesis",
+     "share": "21/38"
+    },
+    {
+     "label": "VP",
+     "span": [
+      3,
+      18
+     ],
+     "text": "exhibit longer hypocotyls when they are grown under high ambient temperature , which is defined",
+     "share": "10/38"
+    },
+    {
+     "label": "VP",
+     "span": [
+      3,
+      15
+     ],
+     "text": "exhibit longer hypocotyls when they are grown under high ambient temperature ,",
+     "share": "6/38"
+    },
+    {
+     "label": "VP",
+     "span": [
+      3,
+      14
+     ],
+     "text": "exhibit longer hypocotyls when they are grown under high ambient temperature",
+     "share": "8/38"
+    },
+    {
+     "label": "VP",
+     "span": [
+      3,
+      10
+     ],
+     "text": "exhibit longer hypocotyls when they are grown",
+     "share": "4/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      6,
+      20
+     ],
+     "text": "when they are grown under high ambient temperature , which is defined as thermomorphogenesis",
+     "share": "14/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      6,
+      18
+     ],
+     "text": "when they are grown under high ambient temperature , which is defined",
+     "share": "6/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      6,
+      15
+     ],
+     "text": "when they are grown under high ambient temperature ,",
+     "share": "14/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      6,
+      14
+     ],
+     "text": "when they are grown under high ambient temperature",
+     "share": "16/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      6,
+      10
+     ],
+     "text": "when they are grown",
+     "share": "4/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      7,
+      20
+     ],
+     "text": "they are grown under high ambient temperature , which is defined as thermomorphogenesis",
+     "share": "8/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      7,
+      18
+     ],
+     "text": "they are grown under high ambient temperature , which is defined",
+     "share": "3/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      7,
+      15
+     ],
+     "text": "they are grown under high ambient temperature ,",
+     "share": "10/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      7,
+      14
+     ],
+     "text": "they are grown under high ambient temperature",
+     "share": "29/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      7,
+      10
+     ],
+     "text": "they are grown",
+     "share": "4/38"
+    },
+    {
+     "label": "VP",
+     "span": [
+      8,
+      20
+     ],
+     "text": "are grown under high ambient temperature , which is defined as thermomorphogenesis",
+     "share": "4/38"
+    },
+    {
+     "label": "VP",
+     "span": [
+      8,
+      18
+     ],
+     "text": "are grown under high ambient temperature , which is defined",
+     "share": "3/38"
+    },
+    {
+     "label": "VP",
+     "span": [
+      8,
+      14
+     ],
+     "text": "are grown under high ambient temperature",
+     "share": "34/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      14,
+      20
+     ],
+     "text": ", which is defined as thermomorphogenesis",
+     "share": "11/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      14,
+      18
+     ],
+     "text": ", which is defined",
+     "share": "7/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      15,
+      20
+     ],
+     "text": "which is defined as thermomorphogenesis",
+     "share": "26/38"
+    },
+    {
+     "label": "S",
+     "span": [
+      15,
+      18
+     ],
+     "text": "which is defined",
+     "share": "12/38"
+    },
+    {
+     "label": "VP",
+     "span": [
+      16,
+      20
+     ],
+     "text": "is defined as thermomorphogenesis",
+     "share": "26/38"
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADJ",
+     "ADV"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ",
+     "NOUN"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP",
+     "SCONJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADJ",
+     "ADV"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ",
+     "NOUN"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP",
+     "SCONJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADJ",
+     "ADV"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ",
+     "NOUN"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP",
+     "SCONJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {
+    "NP": 36024,
+    "S": 5064
+   },
+   "n_S": 5064,
+   "enumerated": true,
+   "target_index": 4905,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADJ",
+     "ADV"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ",
+     "NOUN"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP",
+     "SCONJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {
+    "NP": 624,
+    "S": 776
+   },
+   "n_S": 776,
+   "enumerated": true,
+   "target_index": 709,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADJ",
+     "ADV"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ",
+     "NOUN"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP",
+     "SCONJ"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADJ",
+     "ADV"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ",
+     "NOUN"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP",
+     "SCONJ"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADJ",
+     "ADV"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ",
+     "NOUN"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP",
+     "SCONJ"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {
+    "NP": 43576,
+    "S": 2520
+   },
+   "n_S": 2520,
+   "enumerated": true,
+   "target_index": null,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB",
+     "NOUN"
+    ],
+    [
+     "ADJ",
+     "ADV"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ",
+     "NOUN"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP",
+     "SCONJ"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {
+    "NP": 984,
+    "S": 304
+   },
+   "n_S": 304,
+   "enumerated": true,
+   "target_index": null,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S5",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADV"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "ADJ"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ]
+   ],
+   "words": [
+    "Arabidopsis",
+    "thaliana",
+    "seedlings",
+    "exhibit",
+    "longer",
+    "hypocotyls",
+    "when",
+    "they",
+    "are",
+    "grown",
+    "under",
+    "high",
+    "ambient",
+    "temperature",
+    ",",
+    "which",
+    "is",
+    "defined",
+    "as",
+    "thermomorphogenesis"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {
+    "NP": 3838,
+    "S": 557
+   },
+   "n_S": 557,
+   "enumerated": true,
+   "target_index": 491,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "gold",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {
+    "NP": 310,
+    "S": 300
+   },
+   "n_S": 300,
+   "enumerated": true,
+   "target_index": 256,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {
+    "NP": 3384,
+    "S": 230
+   },
+   "n_S": 230,
+   "enumerated": true,
+   "target_index": null,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "gold",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {
+    "NP": 406,
+    "S": 116
+   },
+   "n_S": 116,
+   "enumerated": true,
+   "target_index": null,
+   "trees": null,
+   "disputed": [
+    {
+     "label": "S",
+     "span": [
+      0,
+      11
+     ],
+     "text": "A spectrogram of PSN J10354824+3900279 obtained on Dec. 19.33 UT suggests",
+     "share": "32/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      0,
+      10
+     ],
+     "text": "A spectrogram of PSN J10354824+3900279 obtained on Dec. 19.33 UT",
+     "share": "45/116"
+    },
+    {
+     "label": "S",
+     "span": [
+      0,
+      9
+     ],
+     "text": "A spectrogram of PSN J10354824+3900279 obtained on Dec. 19.33",
+     "share": "7/116"
+    },
+    {
+     "label": "S",
+     "span": [
+      0,
+      8
+     ],
+     "text": "A spectrogram of PSN J10354824+3900279 obtained on Dec.",
+     "share": "7/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      0,
+      6
+     ],
+     "text": "A spectrogram of PSN J10354824+3900279 obtained",
+     "share": "15/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      0,
+      5
+     ],
+     "text": "A spectrogram of PSN J10354824+3900279",
+     "share": "81/116"
+    },
+    {
+     "label": "PP",
+     "span": [
+      2,
+      10
+     ],
+     "text": "of PSN J10354824+3900279 obtained on Dec. 19.33 UT",
+     "share": "25/116"
+    },
+    {
+     "label": "PP",
+     "span": [
+      2,
+      6
+     ],
+     "text": "of PSN J10354824+3900279 obtained",
+     "share": "10/116"
+    },
+    {
+     "label": "PP",
+     "span": [
+      2,
+      5
+     ],
+     "text": "of PSN J10354824+3900279",
+     "share": "81/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      3,
+      10
+     ],
+     "text": "PSN J10354824+3900279 obtained on Dec. 19.33 UT",
+     "share": "25/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      3,
+      6
+     ],
+     "text": "PSN J10354824+3900279 obtained",
+     "share": "20/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      3,
+      5
+     ],
+     "text": "PSN J10354824+3900279",
+     "share": "96/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      4,
+      10
+     ],
+     "text": "J10354824+3900279 obtained on Dec. 19.33 UT",
+     "share": "10/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      4,
+      6
+     ],
+     "text": "J10354824+3900279 obtained",
+     "share": "15/116"
+    },
+    {
+     "label": "VP",
+     "span": [
+      5,
+      20
+     ],
+     "text": "obtained on Dec. 19.33 UT suggests that this is a type-Ia at redshift z 0.044",
+     "share": "47/116"
+    },
+    {
+     "label": "VP",
+     "span": [
+      5,
+      16
+     ],
+     "text": "obtained on Dec. 19.33 UT suggests that this is a type-Ia",
+     "share": "12/116"
+    },
+    {
+     "label": "VP",
+     "span": [
+      5,
+      11
+     ],
+     "text": "obtained on Dec. 19.33 UT suggests",
+     "share": "25/116"
+    },
+    {
+     "label": "VP",
+     "span": [
+      5,
+      10
+     ],
+     "text": "obtained on Dec. 19.33 UT",
+     "share": "15/116"
+    },
+    {
+     "label": "VP",
+     "span": [
+      5,
+      9
+     ],
+     "text": "obtained on Dec. 19.33",
+     "share": "19/116"
+    },
+    {
+     "label": "VP",
+     "span": [
+      5,
+      8
+     ],
+     "text": "obtained on Dec.",
+     "share": "19/116"
+    },
+    {
+     "label": "PP",
+     "span": [
+      6,
+      20
+     ],
+     "text": "on Dec. 19.33 UT suggests that this is a type-Ia at redshift z 0.044",
+     "share": "15/116"
+    },
+    {
+     "label": "PP",
+     "span": [
+      6,
+      16
+     ],
+     "text": "on Dec. 19.33 UT suggests that this is a type-Ia",
+     "share": "3/116"
+    },
+    {
+     "label": "PP",
+     "span": [
+      6,
+      11
+     ],
+     "text": "on Dec. 19.33 UT suggests",
+     "share": "15/116"
+    },
+    {
+     "label": "PP",
+     "span": [
+      6,
+      10
+     ],
+     "text": "on Dec. 19.33 UT",
+     "share": "45/116"
+    },
+    {
+     "label": "PP",
+     "span": [
+      6,
+      9
+     ],
+     "text": "on Dec. 19.33",
+     "share": "19/116"
+    },
+    {
+     "label": "PP",
+     "span": [
+      6,
+      8
+     ],
+     "text": "on Dec.",
+     "share": "19/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      7,
+      20
+     ],
+     "text": "Dec. 19.33 UT suggests that this is a type-Ia at redshift z 0.044",
+     "share": "15/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      7,
+      16
+     ],
+     "text": "Dec. 19.33 UT suggests that this is a type-Ia",
+     "share": "6/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      7,
+      11
+     ],
+     "text": "Dec. 19.33 UT suggests",
+     "share": "15/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      7,
+      10
+     ],
+     "text": "Dec. 19.33 UT",
+     "share": "55/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      7,
+      9
+     ],
+     "text": "Dec. 19.33",
+     "share": "19/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      8,
+      20
+     ],
+     "text": "19.33 UT suggests that this is a type-Ia at redshift z 0.044",
+     "share": "9/116"
+    },
+    {
+     "label": "S",
+     "span": [
+      8,
+      20
+     ],
+     "text": "19.33 UT suggests that this is a type-Ia at redshift z 0.044",
+     "share": "10/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      8,
+      16
+     ],
+     "text": "19.33 UT suggests that this is a type-Ia",
+     "share": "6/116"
+    },
+    {
+     "label": "S",
+     "span": [
+      8,
+      16
+     ],
+     "text": "19.33 UT suggests that this is a type-Ia",
+     "share": "2/116"
+    },
+    {
+     "label": "S",
+     "span": [
+      8,
+      11
+     ],
+     "text": "19.33 UT suggests",
+     "share": "12/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      8,
+      11
+     ],
+     "text": "19.33 UT suggests",
+     "share": "10/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      8,
+      10
+     ],
+     "text": "19.33 UT",
+     "share": "85/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      9,
+      20
+     ],
+     "text": "UT suggests that this is a type-Ia at redshift z 0.044",
+     "share": "4/116"
+    },
+    {
+     "label": "S",
+     "span": [
+      9,
+      20
+     ],
+     "text": "UT suggests that this is a type-Ia at redshift z 0.044",
+     "share": "10/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      9,
+      16
+     ],
+     "text": "UT suggests that this is a type-Ia",
+     "share": "4/116"
+    },
+    {
+     "label": "S",
+     "span": [
+      9,
+      16
+     ],
+     "text": "UT suggests that this is a type-Ia",
+     "share": "2/116"
+    },
+    {
+     "label": "S",
+     "span": [
+      9,
+      11
+     ],
+     "text": "UT suggests",
+     "share": "12/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      9,
+      11
+     ],
+     "text": "UT suggests",
+     "share": "5/116"
+    },
+    {
+     "label": "VP",
+     "span": [
+      10,
+      20
+     ],
+     "text": "suggests that this is a type-Ia at redshift z 0.044",
+     "share": "48/116"
+    },
+    {
+     "label": "VP",
+     "span": [
+      10,
+      16
+     ],
+     "text": "suggests that this is a type-Ia",
+     "share": "27/116"
+    },
+    {
+     "label": "S",
+     "span": [
+      11,
+      20
+     ],
+     "text": "that this is a type-Ia at redshift z 0.044",
+     "share": "82/116"
+    },
+    {
+     "label": "S",
+     "span": [
+      11,
+      16
+     ],
+     "text": "that this is a type-Ia",
+     "share": "34/116"
+    },
+    {
+     "label": "S",
+     "span": [
+      12,
+      20
+     ],
+     "text": "this is a type-Ia at redshift z 0.044",
+     "share": "82/116"
+    },
+    {
+     "label": "S",
+     "span": [
+      12,
+      16
+     ],
+     "text": "this is a type-Ia",
+     "share": "34/116"
+    },
+    {
+     "label": "VP",
+     "span": [
+      13,
+      20
+     ],
+     "text": "is a type-Ia at redshift z 0.044",
+     "share": "82/116"
+    },
+    {
+     "label": "VP",
+     "span": [
+      13,
+      16
+     ],
+     "text": "is a type-Ia",
+     "share": "75/116"
+    },
+    {
+     "label": "NP",
+     "span": [
+      14,
+      20
+     ],
+     "text": "a type-Ia at redshift z 0.044",
+     "share": "41/116"
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ",
+     "DET",
+     "PRON"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ",
+     "DET",
+     "PRON"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ",
+     "DET",
+     "PRON"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {
+    "NP": 28256,
+    "S": 4632
+   },
+   "n_S": 4632,
+   "enumerated": false,
+   "target_index": null,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "ambiguous",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ",
+     "DET",
+     "PRON"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {
+    "NP": 1920,
+    "S": 2072
+   },
+   "n_S": 2072,
+   "enumerated": true,
+   "target_index": 1732,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ",
+     "DET",
+     "PRON"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ",
+     "DET",
+     "PRON"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ",
+     "DET",
+     "PRON"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {
+    "NP": 31608,
+    "S": 2296
+   },
+   "n_S": 2296,
+   "enumerated": false,
+   "target_index": null,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "ambiguous",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN",
+     "NOUN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ",
+     "DET",
+     "PRON"
+    ],
+    [
+     "PRON",
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN",
+     "ADJ"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824+3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {
+    "NP": 3248,
+    "S": 928
+   },
+   "n_S": 928,
+   "enumerated": true,
+   "target_index": null,
+   "trees": null,
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type",
+    "-",
+    "Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type",
+    "-",
+    "Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type",
+    "-",
+    "Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "spacy",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type",
+    "-",
+    "Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type",
+    "-",
+    "Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type",
+    "-",
+    "Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type",
+    "-",
+    "Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "spacy",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "PRON"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "PUNCT"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type",
+    "-",
+    "Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "CCONJ"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "CCONJ"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "CCONJ"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "scispacy",
+   "strip_final_punct": false,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "CCONJ"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PUNCT"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044",
+    "."
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_general",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "CCONJ"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_general+imp",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "CCONJ"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_full",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "CCONJ"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  },
+  {
+   "id": "S6",
+   "input": "scispacy",
+   "strip_final_punct": true,
+   "grammar": "G_treebank",
+   "tags": [
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "CCONJ"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "NUM"
+    ],
+    [
+     "PROPN"
+    ],
+    [
+     "VERB"
+    ],
+    [
+     "SCONJ"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "AUX"
+    ],
+    [
+     "DET"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "ADP"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NOUN"
+    ],
+    [
+     "NUM"
+    ]
+   ],
+   "words": [
+    "A",
+    "spectrogram",
+    "of",
+    "PSN",
+    "J10354824",
+    "+",
+    "3900279",
+    "obtained",
+    "on",
+    "Dec.",
+    "19.33",
+    "UT",
+    "suggests",
+    "that",
+    "this",
+    "is",
+    "a",
+    "type-Ia",
+    "at",
+    "redshift",
+    "z",
+    "0.044"
+   ],
+   "roots": {},
+   "n_S": 0,
+   "enumerated": true,
+   "target_index": null,
+   "trees": [],
+   "disputed": null
+  }
+ ],
+ "notes": {
+  "S2_ambiguous_G_full+imp_n_S": 23
+ }
+}
